@@ -18,12 +18,56 @@ Siga os passos abaixo para ter acesso aos projetos.
 Para baixar o repositório, rode no terminal:
 
 * HTTPS
-```sh
-git clone https://github.com/raugusto96/exercise.git
+```
+$ git clone https://github.com/raugusto96/exercise.git
 ```
 > Não se esqueça de colocar suas credênciais do github para liberar o download.
 
 * SSH
-```sh
-git clone git@github.com:raugusto96/exercise.git
 ```
+$ git clone git@github.com:raugusto96/exercise.git
+```
+
+### Instalando dependências
+Entre na pasta do projeto que desejar e para instalar as dependências, rode:
+
+* NPM
+```
+$ npm install
+```
+* YARN
+```
+$ yarn install
+```
+
+### Iniciando a aplicação
+
+Após ter instalado as dependências, rode:
+
+#### Modo desenvolvimento, apenas para aplicações **[React](https://react.dev)**
+
+* NPM
+```
+$ npm start
+```
+* YARN
+```
+$ yarn start
+```
+Terá uma saída parecida com essa:
+> **Output:** Aplicação rodando na porta 3000!
+
+Logo após será possível acessar `http://localhost:3000` no navegador e visualizar a aplicação rodando.
+
+## Sobre
+Esses projetos serão terão como intuito de praticar habilidades de desenvolvimento web dos fundamentos ao avançado.
+
+Utilizando as stacks:
+* Html
+* Scss
+* React
+* TypeScript
+* Node.js
+* SQL/NoSQL
+
+Mantendo o padrão de projeto com **ESLint** e **Prettier** configurados.
