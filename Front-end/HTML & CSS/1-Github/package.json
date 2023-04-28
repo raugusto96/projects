@@ -12,6 +12,7 @@
   "devDependencies": {
     "@html-eslint/eslint-plugin": "^0.18.0",
     "@html-eslint/parser": "^0.18.0",
-    "eslint": "^8.39.0"
+    "eslint": "^8.39.0",
+    "eslint-config-trybe-fundamentals": "^1.1.1"
   }
 }
