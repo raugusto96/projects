@@ -4,7 +4,9 @@
   "description": "Este é um exercício proposto para clonar a página de login do GitHub.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json .",
+    "lint:styles": "stylelint **/*.css,*.scss --config .stylelintrc.json --ignore-disables --allow-empty-input"
   },
   "keywords": [],
   "author": "",
