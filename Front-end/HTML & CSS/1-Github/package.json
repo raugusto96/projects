@@ -1,0 +1,17 @@
+{
+  "name": "1-github",
+  "version": "1.0.0",
+  "description": "Este é um exercício proposto para clonar a página de login do GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.18.0",
+    "@html-eslint/parser": "^0.18.0",
+    "eslint": "^8.39.0"
+  }
+}
