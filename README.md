@@ -19,13 +19,13 @@ Para baixar o repositório, rode no terminal:
 
 * HTTPS
 ```
-$ git clone https://github.com/raugusto96/exercise.git
+$ git clone https://github.com/raugusto96/projects.git
 ```
 > Não se esqueça de colocar suas credênciais do github para liberar o download.
 
 * SSH
 ```
-$ git clone git@github.com:raugusto96/exercise.git
+$ git clone git@github.com:raugusto96/projects.git
 ```
 
 ### Instalando dependências
