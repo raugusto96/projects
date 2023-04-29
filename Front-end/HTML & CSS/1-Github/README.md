@@ -80,7 +80,7 @@ e de fácil manutenção! Para rodá-los localmente no projeto, execute os coman
 npm run lint
 npm run lint:styles
 ```
-**ou**
+***ou***
 
 ```bash
 yarn lint
@@ -91,6 +91,46 @@ Quando é executando o comando `npm run lint:styles`, ele irá avaliar se os seg
 
 Quando é executando o comando `npm run lint`, ele irá avaliar se os seguintes arquivos com a extensão `JS` e `JSX` está com o padrão correto.
 
+---
+## Cypress
+
+Cypress é uma ferramenta de teste de front-end desenvolvida para a web.
+Você pode rodar o cypress localmente para verificar se seus requisitos estão passando, para isso execute o um dos seguintes comandos:
+
+Para executar os testes apenas no terminal:
+
+```bash
+npm test
+```
+
+***ou***
+
+```bash
+yarn test
+```
+
+Para executar os testes e vê-los rodando em uma janela de navegador:
+
+```bash
+npm run cypress:open
+```
+
+***ou***
+
+```bash
+npx cypress open
+```
+
+***ou***
+
+```bash
+yarn cypress:open
+```
+
+Após executar um dos três comandos acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (**project.spec.cy.js**), ou para executar todos os testes clique em _Run all specs_
+
+
+**Para rodar o cypress é preciso ter rodado o comando npm install anteriormente.**
 ---
 ## Requisitos do projeto
 
@@ -110,21 +150,21 @@ Quando é executando o comando `npm run lint`, ele irá avaliar se os seguintes 
 
 ---
 
-## Requisitos do projeto
+# Requisitos do projeto
 
-### 1 - Adicione no seu site um formulário para login
+## 1 - Adicione no seu site um formulário para login
 
 **O que será verificado:**
 
 - Será verificado se o **id** do formulário é `login-form`.
 
-### 2 - Adicione um campo de texto que conterá o email
+## 2 - Adicione um campo de texto que conterá o email
 
 **O que será verificado:**
 
 - Será verificado se o seu **id** deve ser `email-input`;
 
-### 3 - Adicione um campo de texto que conterá a senha
+## 3 - Adicione um campo de texto que conterá a senha
 
 **O que será verificado:**
 
@@ -132,7 +172,7 @@ Quando é executando o comando `npm run lint`, ele irá avaliar se os seguintes 
 
 - Será verificado se o campo de texto possui o **type** de `password`.
 
-### 4 - Adicione um botão para realizar o login
+## 4 - Adicione um botão para realizar o login
 
 **O que será verificado:**
 
