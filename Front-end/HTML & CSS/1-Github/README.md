@@ -131,9 +131,8 @@ Após executar um dos três comandos acima, será aberta uma janela de navegador
 
 
 **Para rodar o cypress é preciso ter rodado o comando npm install anteriormente.**
----
-## Requisitos do projeto
 
+---
 ### 💡 Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar à todos!
 
 ![Página de login do Github](./src/assets/images/Example.jpeg "Página de login do Github")
