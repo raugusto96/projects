@@ -107,3 +107,33 @@ Quando é executando o comando `npm run lint`, ele irá avaliar se os seguintes 
   * [W3Schools](https://www.w3schools.com/js/default.asp)
   * [MDN - Mozilla Developer Network](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   * [StackOverflow](https://pt.stackoverflow.com/questions/tagged/javascript)
+
+---
+
+## Requisitos do projeto
+
+### 1 - Adicione no seu site um formulário para login
+
+**O que será verificado:**
+
+- Será verificado se o **id** do formulário é `login-form`.
+
+### 2 - Adicione um campo de texto que conterá o email
+
+**O que será verificado:**
+
+- Será verificado se o seu **id** deve ser `email-input`;
+
+### 3 - Adicione um campo de texto que conterá a senha
+
+**O que será verificado:**
+
+- Será verificado se o seu **id** deve ser `password-input`;
+
+- Será verificado se o campo de texto possui o **type** de `password`.
+
+### 4 - Adicione um botão para realizar o login
+
+**O que será verificado:**
+
+- Será verificado se o seu **id** deve ser `login-button`.
