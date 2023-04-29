@@ -44,13 +44,13 @@ Este é um exercício proposto para clonar a página de login do GitHub.
 5. Adicione a sua branch com o novo `commit` ao repositório remoto
   * Usando o exemplo anterior: `git push -u origin rodrigo-github-clone`
 6. Crie um novo `Pull Request` (_PR_)
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/raugusto96/exercise/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/raugusto96/projects/pulls)
   * Clique no botão verde "_New pull request_"
   * Clique na caixa de seleção "_Compare_" e escolha a sua branch **com atenção**
   * Clique no botão verde "_Create pull request_"
   * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde "_Create pull request_"
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/raugusto96/exercise/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/raugusto96/projects/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 ### Durante o desenvolvimento
